@@ -93,7 +93,7 @@ export $PATH=$PATH:/home/mydir
 command arg1  arg2 arg3
 ```
 默认情况下 arg0 表示当前程序本身
-## shell 的自动扩展参数
+## shell的自动扩展参数
 这里有一个特别有意思的事情，当我们执行某个命令的时候，如果参数中包含了shell通配符或者取只的符号，shell会我们自动展开参数
 ```
 export N=100
