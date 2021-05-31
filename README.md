@@ -10,7 +10,7 @@ Table of Contents
         - [标准输入与输出](docs/chapter1.md#输入和输出)
         - [错误输出](docs/chapter1.md#错误输出)
         - [管道](docs/chapter1.md#管道)
-    - [环境变量](docs/chapter1.md)
+    - [环境变量](docs/chapter1.md#环境变量)
         - [几个特殊的环境变量](docs/chapter1.md#几个特殊的环境变量)
             - [PATH环境变量](docs/chapter1.md#PATH环境变量)
             - [用户相关](docs/chapter1.md#用户相关)
