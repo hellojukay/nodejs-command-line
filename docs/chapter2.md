@@ -78,6 +78,22 @@ Options:
     (default: "licong")
 ```
 # 处理环境变量
+`Node.js`的标准库的`process`包就能处理环境变量，这里输出所有的环境变量
+```
+#!/usr/bin/env node
+
+const process = require('process')
+const fmt = require('util')
+
+
+Object.keys(process.env).forEach((key) => {
+    console.info("%s=>%s",key.padEnd(30),process.env[key])
+})
+```
+也能设置程序的环境变量
+```
+process.env['HOST_PATH'] = '/opt/'
+```
 
 # 输出和终端
 
