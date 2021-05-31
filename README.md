@@ -13,7 +13,7 @@ Table of Contents
     - [环境变量](docs/chapter1.md)
         - [几个特殊的环境变量](docs/chapter1.md#几个特殊的环境变量)
     - [命令行参数](docs/chapter1.md)
-        - [shell 的自动扩展参数](docs/chapter1.md#shell 的自动扩展参数)
+        - [shell的自动扩展参数](docs/chapter1.md#shell的自动扩展参数)
     - [返回值](docs/chapter1.md)
     - [信号处理](docs/chapter1.md)
 - Node.js和命令行
