@@ -6,10 +6,10 @@ Table of Contents
 
 - 基础概念
     - [ShaBang](docs/chapter1.md)
-    - [输入和输出](docs/chapter1.md#环境变量)
-        - [管道](docs/chapter1.md#环境变量)
-        - [标准输入与输出](docs/chapter1.md#环境变量)
-        - [错误输出](docs/chapter1.md#环境变量)
+    - [输入和输出](docs/chapter1.md#输入和输出)
+        - [标准输入与输出](docs/chapter1.md#输入输出)
+        - [错误输出](docs/chapter1.md#错误输出)
+        - [管道](docs/chapter1.md#管道)
     - [返回值](docs/chapter1.md)
     - [命令行参数](docs/chapter1.md)
     - [环境变量](docs/chapter1.md)
