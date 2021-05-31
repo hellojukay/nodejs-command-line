@@ -54,7 +54,7 @@ LC_NAME=zh_CN.UTF-8
 ```
 我们可以通过这些环境变量来控制系统或者程序的行为。
 ## 几个特殊的环境变量
-## PATH 环境变量
+### PATH环境变量
 `$PATH` 是一个文件夹数组，默认情况下系统会到 `$PATH` 环境变量所处的文件夹中寻找命令行，如果你的命令不在 `$PATH` 中，那么就无法在全局调用该命令，
 ```
 hellojukay@local nodejs-command-line (main) $ echo "$PATH" | tr ":" "\n" | nl
@@ -87,6 +87,26 @@ export $PATH=$PATH:/home/mydir
 ```
 这样我们就能在全局调用 `/home/mydir` 中的命令了.
 
+### 用户相关
+`$USER` 变量表示当前用户的名字
+```
+hellojukay@local nodejs-command-line (main) $ echo $USER
+hellojukay
+```
+`$HOME`环境变量表示当前用户的家目录
+```
+echo $HOME
+```
+`$SHELL`表示当前命令行解释器的程序
+```
+hellojukay@local nodejs-command-line (main) $ echo $SHELL
+/bin/bash
+```
+`$PWD`表示当前用户所在的文件夹
+```
+hellojukay@local nodejs-command-line (main) $ echo $PWD
+/home/hellojukay/github/nodejs-command-line
+```
 # 命令行参数
 我们在命令行运行程序的时候可以给程序指定命令行参数
 ```
@@ -105,3 +125,5 @@ echo $n
 ```
 exit 0
 ```
+# 信号处理
+linux 里面使用 kill 命令向进程发送信号，程序接受到信号以后执行响应的处理，比如收到关闭信号以后，执行清理操作，退出程序。比如 `Ctrl + C` 就是一个特殊信号，他能让程序退出.
