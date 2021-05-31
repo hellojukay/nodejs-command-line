@@ -13,7 +13,7 @@ Table of Contents
     - [返回值](docs/chapter1.md)
     - [命令行参数](docs/chapter1.md)
     - [环境变量](docs/chapter1.md)
-        - [几个特殊的环境变量](docs/chapter1.md)
+        - [几个特殊的环境变量](docs/chapter1.md#几个特殊的环境变量)
     - [信号处理](docs/chapter1.md)
 - Node.js和命令行
     - [环境变量与命令行参数](docs/chapter2.md)
