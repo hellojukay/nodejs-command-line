@@ -12,6 +12,7 @@ Table of Contents
         - [管道](docs/chapter1.md#管道)
     - [返回值](docs/chapter1.md)
     - [命令行参数](docs/chapter1.md)
+        - [shell 的自动扩展参数](docs/chapter1.md#shell 的自动扩展参数)
     - [环境变量](docs/chapter1.md)
         - [几个特殊的环境变量](docs/chapter1.md#几个特殊的环境变量)
     - [信号处理](docs/chapter1.md)
