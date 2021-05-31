@@ -1,5 +1,5 @@
 # nodejs-command-line
-如何使用 nodejs 编写命令行程序
+如何使用 Node.js 编写命令行程序
 
 Table of Contents
 =================
