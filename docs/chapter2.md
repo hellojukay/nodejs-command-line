@@ -15,7 +15,7 @@ hellojukay@local nodejs-command-line (main) $ node src/args.js hello world
 2: hello
 3: world
 ```
-通过 `node` 命令执行脚本，脚本的第一个参数就是`node`本身，同样的直接运行`src/args.js`文件也是
+通过 `node` 命令执行脚本，脚本的第一个参数就是`node`本身，第二参数是当前的脚本文件的文件路径`/home/hellojukay/github/nodejs-command-line/src/args.js`,同样的直接运行`src/args.js`文件也是
 ```
 hellojukay@local nodejs-command-line (main) $ chmod +x src/args.js
 hellojukay@local nodejs-command-line (main) $ src/args.js hello world
