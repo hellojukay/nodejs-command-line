@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 const process = require('process')
-const fmt = require('util')
 
 process.env['HOST_PATH'] = '/opt/'
 
