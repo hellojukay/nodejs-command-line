@@ -94,5 +94,21 @@ process.env['HOST_PATH'] = '/opt/'
 ```
 
 # 输出和终端
+如果我们需要输出日志到终端，直接使用 `console.log`就可以了，也可以使用底层的实现`process`包
+```
+const process = require('process')
+process.stdout.write(message)
+```
+或者输出到标准错误输出
+```
+const process = require('process')
+process.stderr.write(message)
+```
+## 非打印字符
+有的字符能直接输出到屏幕上，或者输出到打印机器上，但是有的字符是无法打印的,他们用来控制计算机的行为，比如'\a'这个字符会蜂鸣器报警。一些常用的非打印字符:
+* \n 换行
+* \t 制表符
+* \r 光标回到行首
+* \b 光标退格
 
 # 信号处理
